@@ -1,0 +1,8 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/st7735/inc
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/st7735 -lst7735
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += st7735
+COMPONENT_LDFRAGMENTS += 
+component-st7735-build: 

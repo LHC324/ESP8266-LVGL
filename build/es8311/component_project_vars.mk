@@ -1,0 +1,8 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/es8311/include
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/es8311 -les8311
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += es8311
+COMPONENT_LDFRAGMENTS += 
+component-es8311-build: 

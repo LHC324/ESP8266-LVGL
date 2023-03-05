@@ -1,0 +1,8 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(IDF_PATH)/components/lvgl $(IDF_PATH)/components/lvgl/src $(IDF_PATH)/components/lvgl/src/core $(IDF_PATH)/components/lvgl/src/draw $(IDF_PATH)/components/lvgl/src/extra $(IDF_PATH)/components/lvgl/src/font $(IDF_PATH)/components/lvgl/src/gpu $(IDF_PATH)/components/lvgl/src/hal $(IDF_PATH)/components/lvgl/src/misc $(IDF_PATH)/components/lvgl/src/widgets $(IDF_PATH)/components/lvgl/src/extra/layouts $(IDF_PATH)/components/lvgl/src/extra/layouts/flex $(IDF_PATH)/components/lvgl/src/extra/layouts/grid $(IDF_PATH)/components/lvgl/src/extra/themes $(IDF_PATH)/components/lvgl/src/extra/themes/basic $(IDF_PATH)/components/lvgl/src/extra/themes/default $(IDF_PATH)/components/lvgl/src/extra/widgets/calendar $(IDF_PATH)/components/lvgl/src/extra/widgets/colorwheel $(IDF_PATH)/components/lvgl/src/extra/widgets $(IDF_PATH)/components/lvgl/src/extra/widgets/imgbtn $(IDF_PATH)/components/lvgl/src/extra/widgets/keyboard $(IDF_PATH)/components/lvgl/src/extra/widgets/led $(IDF_PATH)/components/lvgl/src/extra/widgets/list $(IDF_PATH)/components/lvgl/src/extra/widgets/msgbox $(IDF_PATH)/components/lvgl/src/extra/widgets/spinbox $(IDF_PATH)/components/lvgl/src/extra/widgets/spinner $(IDF_PATH)/components/lvgl/src/extra/widgets/tabview $(IDF_PATH)/components/lvgl/src/extra/widgets/tileview $(IDF_PATH)/components/lvgl/src/extra/widgets/win $(IDF_PATH)/components/lvgl
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/lvgl -llvgl
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += lvgl
+COMPONENT_LDFRAGMENTS += 
+component-lvgl-build: 
